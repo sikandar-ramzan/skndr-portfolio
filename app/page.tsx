@@ -10,22 +10,30 @@ export default function Home() {
         <p className={styles.description}>
           <code className={styles.code}>
             meanwhile, feel free to checkout my LinkedIn account...
+            <a
+              href="https://www.linkedin.com/in/sikandar-ramzan/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className={styles.socialsLinkedIn}>
+                <Image
+                  src="/linked-in.svg"
+                  alt="Linked In Logo"
+                  width={32}
+                  height={32}
+                />
+              </span>
+            </a>
           </code>
         </p>
 
         <div>
-          <a
-            href="https://www.linkedin.com/in/sikandar-ramzan/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              src="/linked-in.svg"
-              alt="Linked In Logo"
-              width={72}
-              height={32}
-            />
-          </a>
+          <p className={styles.description}>
+            <em>or email me at:</em>
+            <code className={styles.code}>
+              <a href="mailto: hello@sikandar.dev"> hello@sikandar.dev</a>
+            </code>
+          </p>
         </div>
       </main>
 
