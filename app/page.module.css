@@ -58,7 +58,10 @@
   line-height: 1.5;
   font-size: 1.5rem;
 }
-
+.socials {
+  display: flex;
+  flex-direction: row;
+}
 .code {
   background: #fafafa;
   border-radius: 5px;
@@ -100,7 +103,7 @@
   font-size: 1.5rem;
 }
 
-.card p {
+.card a {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -120,7 +123,7 @@
 
 @media (prefers-color-scheme: dark) {
   .title {
-    background: linear-gradient(180deg, #ffffff 0%, #aaaaaa 100%);
+    background: linear-gradient(180deg, #0084b1 0%, #0084b1c9 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -140,7 +143,7 @@
   .code {
     background: #111;
   }
-  .logo img {
+  /* .logo img {
     filter: invert(1);
-  }
+  } */
 }
